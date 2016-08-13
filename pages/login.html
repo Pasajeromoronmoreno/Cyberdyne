@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Cyberdyne Systems</title>
+
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../resources/css/style.css" rel="stylesheet">
+    <link href="../resources/css/form.css" rel="stylesheet">
+    <script src="../resources/js/form.js"></script>
+    <script src="../resources/js/jquery.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!--contenedor bootstrap-->
+    <div class="container">
+    <!--primer fila bootstrap-->
+    <div class="row">
+        <div class="col-md-12">
+            <!--Password pop-up-->
+            <div class="pr-wrap">
+                <div class="pass-reset">
+                    <input type="email" placeholder="Email" />
+                    <input type="submit" value="Submit" class="pass-reset-submit btn btn-success btn-sm" />
+                </div>
+            </div>
+        </div>
+        <!--Formulario-->
+        <div class="wrap">
+            <p class="form-title">Ingresar</p>
+            <form class="login" method="GET" action="loged-in.html">
+                <input id="user" type="text" name="user" placeholder="Nombre de usuario"/>
+                <input id="pass" ="pass" type="password" name="pass" placeholder="Contraseña" />
+                <input id="sub" type="submit" value="Sign In" onclick="validar();return false;" class="btn btn-success btn-sm" />
+            <div class="remember-forgot">
+                <div class="row">
+                <div class="col-md-6">
+                    <div class="checkbox">
+                    <label>
+                    <input type="checkbox" />
+                    Remember Me
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-6 forgot-pass-content">
+                            <a href="javascription:void(0)" class="forgot-pass">Forgot Password</a>
+                        </div>
+                    </div>
+        </div>
+        <!--termina formulario-->
+        </form>
+        </div>
+
+
+     <!--Termina primer fila bootstrap-->
+    </div>
+    <!--Termina contenedor bootstrap-->
+    </div>
+
+
+</body>
+</html>

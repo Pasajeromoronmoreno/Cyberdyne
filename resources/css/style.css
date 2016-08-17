@@ -1,4 +1,33 @@
+@font-face {
+    font-family: terminator;
+    src: url(../fonts/terminator.otf);
+}
+
+body { 
+padding-top: 50px; }
+
+/*#content {
+    margin: 50px 0;
+    text-align: center;
+}*/
+
+
 footer {
     margin: 50px 0;
     text-align: center;
 }
+
+nav {
+    font-family: terminator;
+    
+}
+
+/*h1 {
+    color: red;
+}*/
+
+
+/*#nav-bar {
+    padding: 5px;
+    margin-top:  50px;
+}*/
